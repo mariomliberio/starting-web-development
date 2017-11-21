@@ -18,9 +18,8 @@ p {
 
 .page{
 display: grid;
+box-shadow: 5em;
 
-max-height:auto;
-max-width: 800px;
 font-family: Open Sans;
 background-color: white;
 column-count: 2;
@@ -30,27 +29,17 @@ text-align: center;
 
 }
 .pics{
-width: 244px;
-height: 227px;
-border: 4px solid #fff;
-   -moz-border-radius: 30px;
-   -webkit-border-radius: 30px;
-   border-radius: 30px;
-}
-#photo{
+  border:2px solid black;
+  border-color: #798081;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:150px;
 
-  border-radius: 50%;
-border-width: thick;
-border: 4px solid lightgrey;
-margin-top: 15px;
-height: 200px;
-color: tomato;
-opacity: 0.8;
 }
+
 
 #one{
-margin-top: 20px;
-margin-bottom: 20px;
+margin:auto;
 padding-left: 15%;
 padding-right: 15%;
 border-top-width: : 30px;
@@ -61,10 +50,8 @@ border-bottom-width: 30px;
 #two{
 
   margin: auto;
-border-top-width: 30px;
-border-bottom-width: 30px;
-border-style: solid;
   background-color: white;
+  color: grey;
 
 
   ;
@@ -73,13 +60,12 @@ border-style: solid;
 }
 
 #three {
-text-align: justify;
-text-align: center;
-border-bottom-width: inherit;
-border-top-width: inherit;
-border-style: solid;
-   word-wrap: break-word;
-padding: 1em;
+
+justify-content: center;
+padding-left: 0.5em;
+padding-right: 0.2em;
+
+
 }
 
 .btn {
